@@ -1,4 +1,6 @@
 setup.py
+clearlove/__init__.py
+clearlove/clearlove.py
 clearlove.egg-info/PKG-INFO
 clearlove.egg-info/SOURCES.txt
 clearlove.egg-info/dependency_links.txt
