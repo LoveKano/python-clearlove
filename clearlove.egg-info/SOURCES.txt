@@ -1,0 +1,6 @@
+setup.py
+clearlove.egg-info/PKG-INFO
+clearlove.egg-info/SOURCES.txt
+clearlove.egg-info/dependency_links.txt
+clearlove.egg-info/not-zip-safe
+clearlove.egg-info/top_level.txt
