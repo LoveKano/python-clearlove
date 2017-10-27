@@ -1,3 +1,2 @@
 def leesin():
-	print("泰拳警告")
-
+    print("泰拳警告")
