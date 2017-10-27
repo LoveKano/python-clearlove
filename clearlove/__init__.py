@@ -46,8 +46,13 @@ def clearlove():
 		for char in message:
 			printedMessage[row]+=(str(characters[char][row])+"  ")
 	offset=WIDTH
+	import platform
+	if "Windows" in str(platform.architecture()):
+		command="cls"
+	else:
+		command="clear"
 	while True:
-		os.system("cls")
+		os.system(command)
 		for row in range(7):
 			print(" "*offset+printedMessage[row][max(0,offset*-1):WIDTH-offset])
 		offset-=1
@@ -55,4 +60,3 @@ def clearlove():
 			offset=WIDTH
 		time.sleep(0.05)
 	print("I will prove that I am the best jungle in the world")
-clearlove()
