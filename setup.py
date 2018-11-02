@@ -1,5 +1,5 @@
 from distutils.core import setup
-VERSION = '0.0.12'
+VERSION = '0.0.13'
 setup(
     name='clearlove',
     version=VERSION,

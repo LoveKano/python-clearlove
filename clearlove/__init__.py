@@ -66,5 +66,5 @@ def clearlove():
 				offset = WIDTH
 			time.sleep(0.05)
 		except KeyboardInterrupt:
-			print("User use Ctrl-C to break...")
+			print("\nUser use Ctrl-C to break...")
 			sys.exit(1)
